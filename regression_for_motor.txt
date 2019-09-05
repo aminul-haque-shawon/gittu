@@ -1,0 +1,61 @@
+x = LeftMotor, f9x) = RightMotor
+
+f(x) = p1*x^2 + p2*x + p3
+Coefficients (with 95% confidence bounds):
+  p1 =   0.0009722
+  p2 =       0.759
+  p3 =       18.74
+/////////////
+  f(x) = a*(sin(x-pi)) + b*((x-10)^2) + c
+Coefficients (with 95% confidence bounds):
+  a =       2.124
+  b =    0.003347
+  c =       84.92
+//////////////////
+  f(x) = p1*x^3 + p2*x^2 + p3*x + p4
+Coefficients (with 95% confidence bounds):
+    p1 =   8.647e-06
+    p2 =   -0.003323
+    p3 =       1.438
+    p4 =      -15.32
+/////////////////
+
+Linear model Poly5:
+     f(x) = p1*x^5 + p2*x^4 + p3*x^3 + p4*x^2 + p5*x + p6
+Coefficients (with 95% confidence bounds):
+       p1 =  -4.249e-09 
+       p2 =   3.623e-06
+       p3 =   -0.001198
+       p4 =      0.1924
+       p5 =         -14
+       p6 =       457.3
+
+
+
+x = RightMotor, f(x) = LeftMotor
+
+Linear model Poly2:
+     f(x) = p1*x^2 + p2*x + p3
+Coefficients (with 95% confidence bounds):
+       p1 =  -0.0008364
+       p2 =       1.217
+       p3 =      -17.92
+///////////////
+
+Linear model:
+     f(x) = a*(sin(x-pi)) + b*((x-10)^2) + c
+Coefficients (with 95% confidence bounds):
+       a =       2.373
+       b =    0.002673
+       c =       86.17
+///////////////
+
+Linear model Poly5:
+     f(x) = p1*x^5 + p2*x^4 + p3*x^3 + p4*x^2 + p5*x + p6
+Coefficients (with 95% confidence bounds):
+       p1 =   4.348e-09
+       p2 =  -3.887e-06
+       p3 =    0.001349
+       p4 =     -0.2271
+       p5 =       19.54
+       p6 =      -590.4
